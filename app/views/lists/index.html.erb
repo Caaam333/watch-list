@@ -1,0 +1,10 @@
+<div class= "container mt-3 text-center" > 
+  <h1>My watch lists</h1>
+
+  <ul class="list">
+      <% @lists.each do |list| %>
+        <li class="list-group-item"><%= link_to list.name, list_path(list) %></li>
+      <% end %>
+    </ul>
+
+</div>
