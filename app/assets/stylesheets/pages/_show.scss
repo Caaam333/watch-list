@@ -39,3 +39,14 @@
   background: linear-gradient(#147eff, #0f67da);
   color: white;
 }
+ul {
+  list-style: none;
+}
+.list .mb-3 {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  width: auto;
+}

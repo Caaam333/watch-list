@@ -3,7 +3,9 @@
 
   <ul class="list">
       <% @lists.each do |list| %>
-        <li class="list-group-item"><%= link_to list.name, list_path(list) %></li>
+          <div class="d-grid gap-2">
+            <li class="watch-list"><%= link_to list.name, list_path(list) %></li>
+          </div>
       <% end %>
     </ul>
 
